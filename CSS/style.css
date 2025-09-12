@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f0ff;
+    color: #5d3f6a;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, main, footer {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: #4b0082;
+    margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-shadow: 1px 1px 2px #d495ff;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: none;
+}
+
+#perfil {
+  margin-top: 20px;
+}
+
+#perfil img {
+    border-radius: 50%;
+    border: 5px solid #d495ff;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#resumo, #ods, #educacao, #habilidades, #hobbies, #links-adicionais {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2c0ff;
+}
+
+#links-adicionais {
+    border-bottom: none;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #b161ff;
+    border-radius: 5px;
+}
+
+#ods img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.curso {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #7d00b3;
+}
+
+.lista-contato {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.lista-contato li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+}
+
+#hobbies li, #habilidades li {
+    font-style: normal;
+    background-color: #f5e6ff;
+    border-left: 4px solid #b161ff;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a[target="_blank"] {
+    color: #7d00b3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff69b4;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e2c0ff;
+    font-size: 0.9em;
+    color: #999;
+    box-shadow: none;
+}
